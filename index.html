@@ -1,0 +1,43 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="CrossesNolics()">
+    <audio id="clickSound"><source src="mp3/button-3.mp3"></audio>
+    <audio id='observe'><source src="mp3/can_not-be.mp3"></audio>
+    <audio id='Wenner'><source src="https://www.soundeffectsplus.com/uploads/prod_audio/38798798_correct-answer-bell-and-applause-01.mp3" type=""></audio>
+  <!--Выполнение JavaScript сразу после того, как страница была загружена:-->
+      <section id="root" >
+        <div id="WinMessage">
+         <p> <!--Wenner X or O--> </p> 
+        </div>
+
+            <article class="">
+              <div id='file1' class='row-column' onclick="checkState(this)"></div>
+              <div id='file2' class='row-column' onclick="checkState(this)"></div>
+              <div id='file3' class='row-column' onclick="checkState(this)"></div>
+                
+            </article>
+
+            <article class="">
+              <div id='file4' class='row-column' onclick="checkState(this)"></div>
+              <div id='file5' class='row-column' onclick="checkState(this)"></div>
+              <div id='file6' class='row-column' onclick="checkState(this)"></div>
+            
+            </article>
+
+            <article class="">
+              <div id='file7' class='row-column' onclick="checkState(this)"></div>
+              <div id='file8' class='row-column' onclick="checkState(this)"></div>
+              <div id='file9' class='row-column' onclick="checkState(this)"></div>
+            
+            </article>
+            <p id="startsWit">The game starts with O'</p>
+
+      </section>
+                  <button id="Reset" onclick="PlayAgain()">Start Game</button>
+  <script src="./JavaScript/index.js"></script>
+  </body>
+</html>
